@@ -11,9 +11,15 @@ h6 {
 body,
 html {
     height: 100%;
-    color: #777;
+    color: rgb(63, 63, 63);
     line-height: 1.8;
 }
+
+/* Nav Bar Color */
+.nbar {
+    color: rgb(80, 79, 79);
+}
+
 
 /* Create a Parallax Effect */
 .bgimg-1,
