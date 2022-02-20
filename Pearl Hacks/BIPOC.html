@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Breaking Through</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+            href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>Home</a>
+    </div>
+</div>
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#Mentor" class="w3-bar-item w3-button" onclick="toggleFunction()">Mentor Match</a>
+    <a href="#Resources" class="w3-bar-item w3-button" onclick="toggleFunction()">Resources</a>
+   
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+</div>
+<!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">BIPOC </span>
+        </div>
+    </div>
+
+<!-- Container (About Section) -->
+ <div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center">Black, Indigenous, and People of Color</h3>
+    
+    <p> Looking for connections and resources <br>
+    </p>  
+  
+    
+    <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+            <img src="https://images.unsplash.com/photo-1573164713712-03790a178651?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80 alt="BIPOC" border="0"
+             alt="Black woman on computer in hallway"
+                width="440" height="330">
+        </div>
+
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+            <p> "No one here looks like me." 
+                
+                <br> <br>
+                It can be isolating and alienating being the only person who looks like you in a sea of people who look and act similar. There's a place at the table for you, and there are others in the tech field that want to help and show you that you're not alone. 
+                Seeing faces like yours and hearing voices that speak to you in the field you're passionate about can be the fuel to get you where you need to be. 
+                <br> <br>
+                Together we can change the landscape of what the technology field looks like, by showing up, being present, and pushing back on the status quo. 
+            </p>
+        </div>
+    </div>
+
+    <h3 class="w3-center">Resources for Black/Brown Women in Tech:</h3>
+    <p>
+        <a href="https://www.blackgirlscode.com/" target="_blank">Black Girls Code</a><br>
+        <a href="https://siliconangle.com/2020/06/12/actionable-advice-breaking-tech-staying-woman-color-womenintech/" target="_blank">Breaking Into (And Staying In) Tech As A Woman Of Color </a><br>
+        <a href="https://www.bbc.com/worklife/article/20200724-why-imposter-syndrome-hits-women-and-women-of-colour-harder" target="_blank">Why Imposter Syndrome hits 
+            Women and Women of Colour Harder</a><br>
+        <a href="https://www.blackgirlventures.org/" target="_blank">Black Girl Ventures</a><br>
+    </p>
+</div>
+</body>
